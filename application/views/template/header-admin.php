@@ -23,13 +23,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url() ?>C_admin/siswa_tekno">Teknologi</a>
+          <a class="nav-link" href="<?= site_url('C_admin/siswa_tekno') ?>">Teknologi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url() ?>C_admin/siswa_bismen">Bismen</a>
+          <a class="nav-link" href="<?= site_url('C_admin/siswa_bismen') ?>">Bismen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="<?= base_url() ?>C_login/admin_logout">Logout</a>
+          <a class="nav-link disabled" href="<?= site_url('C_login/admin_logout') ?>">Logout</a>
         </li>
       </ul>
     </div>
