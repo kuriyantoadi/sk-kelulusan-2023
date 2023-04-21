@@ -6,8 +6,8 @@
   foreach ($tampil as $row) {
   ?>
 
-  <a style="margin-bottom: 20px;" type="button" class="btn btn-warning btn-sm" href="<?= base_url() ?>C_admin/siswa_bismen" >Kembali</a>
-  <a style="margin-bottom: 20px;" type="button" class="btn btn-danger btn-sm" href="<?= base_url() ?>C_admin/siswa_pass_up_bismen" >Ganti Password</a>
+    <a style="margin-bottom: 20px;" type="button" class="btn btn-warning btn-sm" href="<?= site_url('C_admin/siswa_bismen') ?>" >Kembali</a>
+    <a style="margin-bottom: 20px;" type="button" class="btn btn-danger btn-sm" href="<?= site_url('C_admin/siswa_pass_bismen'. $row->id_siswa) ?>" >Ganti Password</a>
 
   <?= form_open('C_admin/siswa_pass_up_bismen'); ?>
 
