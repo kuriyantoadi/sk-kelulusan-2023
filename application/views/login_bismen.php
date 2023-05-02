@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>SKL 2022</title>
+  <title>SKL 2023</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
       <div class="fadeIn first">
         <img src="<?= base_url() ?>assets/img/logo-smk.png" style="margin-top: 20px; margin-bottom: 10px" height="130px" alt="logo SMK Negeri 1 Kragilan">
         <h5 style="">SMK Negeri 1 Kragilan</h5>
-        <h5 style="">Download Surat Kelulusan Tahun 2022</h5>
+        <h5 style="">Download Surat Kelulusan Tahun 2023</h5>
         <h6 style="margin-bottom: 20px;">Jurusan AKL dan OTKP</h6>
 
 

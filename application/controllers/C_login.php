@@ -37,14 +37,8 @@ class C_login extends CI_Controller {
         $this->session->set_userdata('ses_nisn', $data['nisn_siswa']);
         redirect('C_siswa/dashboard_tekno');
 
-      // }elseif ($data['status']=='pimpinan') {
-      //   $this->session->set_userdata('pimpinan', true);
-      //   $this->session->set_userdata('ses_id', $data['id_user']);
-      //   $this->session->set_userdata('ses_username', $data['nisn_siswa']);
-      //
-      //   redirect('C_pimpinan/dashboard');
       }else {
-        $url = base_url('C_login/siswa_tekno');
+        $url = site_url('index.php/C_login/siswa_tekno');
         echo $this->session->set_flashdata('msg', '
 
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -54,6 +48,16 @@ class C_login extends CI_Controller {
         redirect($url);
       }
 
+      // $url = site_url('index.php/C_login/siswa_tekno');
+      $url = site_url('C_login/siswa_tekno');
+      echo $this->session->set_flashdata('msg', '
+
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        NISN atau Password Salah<br> Silahkan Login Kembali
+      </div>
+      ');
+      redirect($url);
+
     }
 
     $this->session->set_flashdata('msg', '
@@ -61,11 +65,10 @@ class C_login extends CI_Controller {
       NISN atau Password Salah<br> Silahkan Login Kembali
     </div>
     ');
-    $url = base_url('C_login/siswa_tekno');
+    $url = site_url('C_login/siswa_tekno');
     redirect($url);
   }
   //Login Siswa Tekno Akhir
-
 
 
     //Login Siswa Bismen Awal
@@ -97,7 +100,7 @@ class C_login extends CI_Controller {
         //
         //   redirect('C_pimpinan/dashboard');
         }else {
-          $url = base_url('C_login/siswa_bismen');
+          $url = site_url('C_login/siswa_bismen');
           echo $this->session->set_flashdata('msg', '
 
           <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -114,7 +117,7 @@ class C_login extends CI_Controller {
         NISN atau Password Salah<br> Silahkan Login Kembali
       </div>
       ');
-      $url = base_url('C_login/siswa_bismen');
+      $url = site_url('C_login/siswa_bismen');
       redirect($url);
     }
     //Login Siswa Tekno Akhir
