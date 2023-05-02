@@ -10,7 +10,6 @@
     <link href="<?= base_url() ?>assets/login/css/bootstrap.css" rel="stylesheet">
     <script src="<?= base_url() ?>assets/login/js/bootstrap.js"></script>
 
-
 </head>
 
 <body>
