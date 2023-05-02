@@ -92,6 +92,7 @@ class C_admin extends CI_Controller {
 		$senbud = $this->input->post('senbud');
 		$sejindo = $this->input->post('sejindo');
 		$pjok = $this->input->post('pjok');
+		$mulok_batik = $this->input->post('mulok_batik');
 		$simdig = $this->input->post('simdig');
 		$kimia = $this->input->post('kimia');
 		$fisika = $this->input->post('fisika');
@@ -118,6 +119,7 @@ class C_admin extends CI_Controller {
 			'senbud' => $senbud,
 			'sejindo' => $sejindo,
 			'pjok' => $pjok,
+			'mulok_batik' => $mulok_batik,
 			'simdig' => $simdig,
 			'kimia' => $kimia,
 			'fisika' => $fisika,
@@ -320,6 +322,7 @@ class C_admin extends CI_Controller {
 			$senbud = $this->input->post('senbud');
 			$sejindo = $this->input->post('sejindo');
 			$pjok = $this->input->post('pjok');
+			$mulok_batik = $this->input->post('mulok_batik');
 			$simdig = $this->input->post('simdig');
 			$ipa = $this->input->post('ipa');
 			$produktif = $this->input->post('produktif');
@@ -345,6 +348,7 @@ class C_admin extends CI_Controller {
 				'senbud' => $senbud,
 				'sejindo' => $sejindo,
 				'pjok' => $pjok,
+				'mulok_batik' => $mulok_batik,
 				'simdig' => $simdig,
 				'ipa' => $ipa,
 				'produktif' => $produktif,

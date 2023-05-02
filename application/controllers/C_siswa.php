@@ -42,7 +42,7 @@ class C_siswa extends CI_Controller {
   {
     $this->session->sess_destroy();
     $url = base_url();
-    redirect('C_login/login_tekno');
+    redirect('C_login/siswa_tekno');
   }
   //Login Tekno Akhir
 
@@ -67,7 +67,7 @@ class C_siswa extends CI_Controller {
     {
       $this->session->sess_destroy();
       $url = base_url();
-      redirect('C_login/login_bismen');
+      redirect('C_login/siswa_bismen');
     }
 
 }

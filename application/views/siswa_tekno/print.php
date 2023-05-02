@@ -34,11 +34,11 @@
         SURAT KETERANGAN LULUS
       </u>
     </h5>
-    <p align='center'>No. 422/0532/SMKN.1/2023</p>
+    <p align='center'>No. 422/ 0532/ SMKN.1/2023</p>
 
     <p class="margin_p">
       Kepala SMK Negeri 1 Kragilan Selaku Ketua Penyelenggara Ujian Sekolah Tahun Pelajaran
-      2021/2022 Berdasarkan :
+      2022/2023 Berdasarkan :
 
       <br>1. Ketuntasan dari seluruh program pembelajaran pada kurikulum 2013 Revisi
       <br>2. Kriteria Kelulusan dari Satuan Pendidikan sesuai dengan peraturan perundang-undangan
@@ -127,7 +127,7 @@
       </tr>
       <tr>
         <td align='center'>6</td>
-        <td class="pd_col">Bahasa Inggris</td>
+        <td class="pd_col">Bahasa Inggris dan Bahasa Asing Lainnya</td>
         <td><center><?= $row->b_ing ?></td>
       </tr>
       <tr>
@@ -142,6 +142,23 @@
         <td align='center'>2</td>
         <td class="pd_col">Pendidikan Jasmani, Olah Raga, dan Kesehatan</td>
         <td><center><?= $row->pjok?></td>
+      </tr>
+      <tr>
+        <td align='center' rowspan="4">3</td>
+        <td class="pd_col">Muatan Lokal</td>
+        <td><center><?= $row->pjok?></td>
+      </tr>
+      <tr>
+        <td><span class="p-4">a. Batik</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="p-4">b. ............</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="p-4">c. .............</span></td>
+        <td></td>
       </tr>
       <tr>
         <th class="pd_col" colspan="3">C. Mata Pelajaran Muatan Peminatan Kejuruan</th>
@@ -163,11 +180,16 @@
       </tr>
       <tr>
         <td align='center'>4</td>
-        <td class="pd_col">Produktif</td>
+        <td class="pd_col">Dasar Program Keahlian</td>
         <td><center><?= $row->produktif ?></td>
       </tr>
       <tr>
-        <th class="pd_col" colspan="2">Rata-Rata</th>
+        <td align='center'>5</td>
+        <td class="pd_col">Kompetensi Keahlian</td>
+        <td><center><?= $row->produktif ?></td>
+      </tr>
+      <tr>
+        <th class="pd_col text-center" colspan="2">Rata-Rata</th>
         <td ><center>
           <?= $row->rata_rata ?>
         </td>

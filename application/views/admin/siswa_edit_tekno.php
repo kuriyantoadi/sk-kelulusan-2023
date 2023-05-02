@@ -155,6 +155,18 @@
         </td>
       </tr>
       <tr>
+        <td align='center'>3</td>
+        <td class="pd_col" colspan='2'>Muatan Lokal </td>
+        
+      </tr>
+      <tr>
+        <td align='center'></td>
+        <td class="pd_col">A. Batik</td>
+        <td>
+          <input class="form-control" type="text" name="mulok_batik" value="<?= $row->mulok_batik ?>" required>
+        </td>
+      </tr>
+      <tr>
         <th class="pd_col" colspan="3">C. Mata Pelajaran Muatan Peminatan Kejuruan</th>
       </tr>
       <tr>

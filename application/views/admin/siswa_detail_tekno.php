@@ -124,6 +124,15 @@
         <td><center><?= $row->pjok?></td>
       </tr>
       <tr>
+        <td align='center'>3</td>
+        <td class="pd_col">Muatan Lokal</td>
+      </tr>
+      <tr>
+        <td align='center'></td>
+        <td class="pd_col">A. Batik</td>
+        <td><center><?= $row->mulok_batik?></td>
+      </tr>
+      <tr>
         <th class="pd_col" colspan="3">C. Mata Pelajaran Muatan Peminatan Kejuruan</th>
       </tr>
       <tr>
