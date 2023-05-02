@@ -38,11 +38,11 @@
 
     <p class="margin_p">
       Kepala SMK Negeri 1 Kragilan Selaku Ketua Penyelenggara Ujian Sekolah Tahun Pelajaran
-      2021/2022 Berdasarkan :
+      2022/2023 Berdasarkan :
 
       <br>1. Ketuntasan dari seluruh program pembelajaran pada kurikulum 2013 Revisi
       <br>2. Kriteria Kelulusan dari Satuan Pendidikan sesuai dengan peraturan perundang-undangan
-      <br>3. Rapat Pleno Dewan Pendidik tentang Kelulusan pada tanggal 04 Mei 2023
+      <br>3. Rapat Pleno Dewan Pendidik tentang Kelulusan pada tanggal 01 Mei 2022
       <br>Menerangkan Bahwa :
     </p>
 
@@ -153,19 +153,15 @@
       </tr>
       <tr>
         <td align='center'>2</td>
-        <td class="pd_col">Fisika</td>
-        <td><center><?= $row->fisika ?></td>
+        <td class="pd_col">IPA</td>
+        <td><center><?= $row->ipa ?></td>
       </tr>
       <tr>
         <td align='center'>3</td>
-        <td class="pd_col">Kimia</td>
-        <td><center><?= $row->kimia ?></td>
-      </tr>
-      <tr>
-        <td align='center'>4</td>
         <td class="pd_col">Produktif</td>
         <td><center><?= $row->produktif ?></td>
       </tr>
+
       <tr>
         <th class="pd_col" colspan="2">Rata-Rata</th>
         <td ><center>
