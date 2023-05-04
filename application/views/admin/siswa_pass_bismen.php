@@ -6,8 +6,6 @@
   foreach ($tampil as $row) {
   ?>
 
-    <a style="margin-bottom: 20px;" type="button" class="btn btn-warning btn-sm" href="<?= site_url('C_admin/siswa_bismen') ?>" >Kembali</a>
-    <a style="margin-bottom: 20px;" type="button" class="btn btn-danger btn-sm" href="<?= site_url('C_admin/siswa_pass_bismen'. $row->id_siswa) ?>" >Ganti Password</a>
 
   <?= form_open('C_admin/siswa_pass_up_bismen'); ?>
 
@@ -40,7 +38,8 @@
     </tr>
   </table>
   <center>
-  <input style="margin-bottom: 50px" type="submit" name="submit" value="simpan" class="btn btn-info">
+  <input style="margin-bottom: 50px" type="submit" name="submit" value="simpan" class="btn btn-info btn-sm">
+  <a style="margin-bottom: 50px;" type="button" class="btn btn-warning btn-sm" href="<?= site_url('C_admin/siswa_bismen') ?>" >Kembali</a>
 
 <?php } ?>
 <?= form_close(''); ?>

@@ -7,8 +7,7 @@
   ?>
 
     <a style="margin-bottom: 20px;" type="button" class="btn btn-warning btn-sm" href="<?= site_url('C_admin/siswa_tekno') ?>" >Kembali</a>
-    <a style="margin-bottom: 20px;" type="button" class="btn btn-danger btn-sm" href="<?= site_url('C_admin/siswa_pass_tekno'. $row->id_siswa) ?>" >Ganti Password</a>
-
+    
   <?= form_open('C_admin/siswa_pass_up_tekno'); ?>
 
 
@@ -40,7 +39,8 @@
     </tr>
   </table>
   <center>
-  <input style="margin-bottom: 50px" type="submit" name="submit" value="simpan" class="btn btn-info">
+  <a style="margin-bottom: 50px;" type="button" class="btn btn-warning btn-sm" href="<?= site_url('C_admin/siswa_tekno') ?>" >Kembali</a>
+  <input style="margin-bottom: 50px" type="submit" name="submit" value="simpan" class="btn btn-info btn-sm">
 
 <?php } ?>
 <?= form_close(''); ?>

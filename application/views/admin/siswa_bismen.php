@@ -65,7 +65,8 @@
                         <center>
                           <a href="<?php echo site_url('C_admin/siswa_hapus_bismen/'.$row->id_siswa); ?>" class="btn btn-sm btn-danger rounded-pill"
                             onclick="return confirm('Anda yakin menghapus data <?= $row->nama_siswa ?> ?')">Hapus</a>
-                          <a href="<?= site_url('C_admin/siswa_edit_bismen/'.$row->id_siswa); ?>" class="btn btn-sm btn-info">Edit</a>
+                            <a href="<?= site_url('C_admin/siswa_pass_bismen/'. $row->id_siswa); ?>" class="btn btn-sm btn-warning">Password</a>
+                            <a href="<?= site_url('C_admin/siswa_edit_bismen/'.$row->id_siswa); ?>" class="btn btn-sm btn-info">Edit</a>
                           <a href="<?= site_url('C_admin/siswa_detail_bismen/'.$row->id_siswa); ?>" class="btn btn-sm btn-primary">Detail</a>
                     </td>
                 </tr>

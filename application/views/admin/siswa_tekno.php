@@ -23,9 +23,6 @@
                         <center>NISN
                     </th>
                     <th>
-                        <center>Tanggal Lahir
-                    </th>
-                    <th>
                       <center>Kelas
                     </th>
                     <th>
@@ -52,9 +49,6 @@
                       <?= $row->nisn_siswa ?>
                     </td>
                     <td>
-                      <?= $row->tgl_lahir ?>
-                    </td>
-                    <td>
                       <?= $row->kelas  ?>
                     </td>
                     <td>
@@ -64,7 +58,8 @@
                         <center>
                           <a href="<?php echo site_url('C_admin/siswa_hapus_tekno/'.$row->id_siswa); ?>" class="btn btn-sm btn-danger rounded-pill"
                             onclick="return confirm('Anda yakin menghapus data <?= $row->nama_siswa ?> ?')">Hapus</a>
-                          <a href="<?= site_url('C_admin/siswa_edit_tekno/'.$row->id_siswa); ?>" class="btn btn-sm btn-info">Edit</a>
+                            <a href="<?= site_url('C_admin/siswa_pass_tekno/'. $row->id_siswa); ?>" class="btn btn-sm btn-warning">Password</a>
+                            <a href="<?= site_url('C_admin/siswa_edit_tekno/'.$row->id_siswa); ?>" class="btn btn-sm btn-info">Edit</a>
                           <a href="<?= site_url('C_admin/siswa_detail_tekno/'.$row->id_siswa); ?>" class="btn btn-sm btn-primary">Detail</a>
                           <!-- <a href="<?= site_url('C_admin/siswa_download_tekno/'.$row->id_siswa); ?>" class="btn btn-sm btn-success">Download</a> -->
                     </td>
