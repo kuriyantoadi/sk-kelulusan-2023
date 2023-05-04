@@ -142,7 +142,7 @@
         <td><center><?= $row->pjok?></td>
       </tr>
       <tr>
-        <td align='center' rowspan="4">3</td>
+      <td align='center' rowspan="4" style="vertical-align:top">3</td>
         <td class="pd_col">Muatan Lokal</td>
         <td><center><?= $row->pjok?></td>
       </tr>
