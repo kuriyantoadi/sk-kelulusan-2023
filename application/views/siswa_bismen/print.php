@@ -192,7 +192,7 @@
       </tr>
 
     </table>
-    <img width="300px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  100px; margin-top: 50px"/>
+    <img width="200px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  150px; margin-top: 10px"/>
 
   <?php } ?>
 

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +22,6 @@
 </head>
 <body>
 
-<div class="container">
 <center>
   <img src="<?= base_url() ?>/assets/img/cop-surat2.png" />
 </center>
@@ -34,7 +32,7 @@
         SURAT KETERANGAN LULUS
       </u>
     </h5>
-    <p align='center'>No. 422/ 0532/ SMKN.1/2023</p>
+    <p align='center'>No. 422/0532/SMKN.1/2023</p>
 
     <p class="margin_p">
       Kepala SMK Negeri 1 Kragilan Selaku Ketua Penyelenggara Ujian Sekolah Tahun Pelajaran
@@ -196,7 +194,7 @@
       </tr>
 
     </table>
-    <img width="300px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  100px; margin-top: 50px"/>
+    <img width="200px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  150px; margin-top: 10px"/>
 
   <?php } ?>
 
