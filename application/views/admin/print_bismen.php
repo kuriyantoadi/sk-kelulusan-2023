@@ -146,11 +146,10 @@
       <tr>
         <td align='center' rowspan="4" style="vertical-align:top">3</td>
         <td class="pd_col">Muatan Lokal</td>
-        <td><center><?= $row->pjok?></td>
       </tr>
       <tr>
         <td><span class="p-4">a. Batik</span></td>
-        <td></td>
+        <td><center><?= $row->mulok_batik?></td>
       </tr>
       <tr>
         <td><span class="p-4">b. ............</span></td>
