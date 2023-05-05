@@ -169,16 +169,26 @@
       </tr>
       <tr>
         <td align='center'>2</td>
+        <td class="pd_col">Ekonomi Bisnis</td>
+        <td><center><?= $row->ekonomi_bisnis ?></td>
+      </tr>
+      <tr>
+        <td align='center'>3</td>
+        <td class="pd_col">Administrasi Umum</td>
+        <td><center><?= $row->adm_umum ?></td>
+      </tr>
+      <tr>
+        <td align='center'>4</td>
         <td class="pd_col">IPA</td>
         <td><center><?= $row->ipa ?></td>
       </tr>
       <tr>
-        <td align='center'>3</td>
+        <td align='center'>5</td>
         <td class="pd_col">Dasar Program Keahlian</td>
         <td><center><?= $row->dasar_program_keahlian ?></td>
       </tr>
       <tr>
-        <td align='center'>4</td>
+        <td align='center'>6</td>
         <td class="pd_col">Kompetensi Keahlian</td>
         <td><center><?= $row->kompetensi_keahlian ?></td>
       </tr>
@@ -191,7 +201,7 @@
       </tr>
 
     </table>
-    <img width="200px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  150px; margin-top: 10px"/>
+    <img width="160px" align="right" src="<?= base_url() ?>assets/img/ttd.png" style="margin-right:  150px; margin-top: 10px"/>
 
   <?php } ?>
 

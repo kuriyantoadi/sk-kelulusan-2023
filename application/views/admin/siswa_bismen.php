@@ -23,9 +23,7 @@
                     <th>
                         <center>NISN
                     </th>
-                    <th>
-                        <center>Tanggal Lahir
-                    </th>
+                    
                     <th>
                       <center>Paket Keahlian
                     </th>
@@ -52,9 +50,7 @@
                     <td>
                       <?= $row->nisn_siswa ?>
                     </td>
-                    <td>
-                      <?= $row->tgl_lahir ?>
-                    </td>
+                   
                     <td>
                       <?= $row->paket_keahlian  ?>
                     </td>
