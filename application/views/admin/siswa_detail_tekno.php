@@ -153,7 +153,12 @@
       <tr>
         <td align='center'>4</td>
         <td class="pd_col">Dasar Program Keahlian</td>
-        <td><center><?= $row->produktif ?></td>
+        <td><center><?= $row->dasar_program_keahlian ?></td>
+      </tr>
+      <tr>
+        <td align='center'>5</td>
+        <td class="pd_col">Kompetensi Keahlian</td>
+        <td><center><?= $row->kompetensi_keahlian ?></td>
       </tr>
       <tr>
         <th class="pd_col" colspan="2">Rata-Rata</th>

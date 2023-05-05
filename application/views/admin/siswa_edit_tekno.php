@@ -192,11 +192,19 @@
       </tr>
       <tr>
         <td align='center'>4</td>
-        <td class="pd_col">Produktif</td>
+        <td class="pd_col">Program Dasar Keahlian</td>
         <td>
-          <input class="form-control" type="text" name="produktif" value="<?= $row->produktif ?>" required>
+          <input class="form-control" type="text" name="dasar_program_keahlian" value="<?= $row->dasar_program_keahlian ?>" required>
         </td>
       </tr>
+      <tr>
+        <td align='center'>5</td>
+        <td class="pd_col">Kompetensi Keahlian</td>
+        <td>
+          <input class="form-control" type="text" name="kompetensi_keahlian" value="<?= $row->kompetensi_keahlian ?>" required>
+        </td>
+      </tr>
+      
       <tr>
         <td align='center'></td>
         <td class="pd_col">Rata-rata</td>

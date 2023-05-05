@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col-md-12">
         <center>
-          <h5 style="margin-top:  25px;"><b>TAHUN PELAJARAN 2019/2020</b></h5>
+        <h5 style="margin-top:  25px;"><b>TAHUN PELAJARAN 2022/2023</b></h5>
         </center>
         <center>
           <h5><b>SMKN 1 KRAGILAN</b></h5>

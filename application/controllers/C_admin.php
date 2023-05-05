@@ -96,7 +96,8 @@ class C_admin extends CI_Controller {
 		$simdig = $this->input->post('simdig');
 		$kimia = $this->input->post('kimia');
 		$fisika = $this->input->post('fisika');
-		$produktif = $this->input->post('produktif');
+		$dasar_program_keahlian = $this->input->post('dasar_program_keahlian');
+		$kompetensi_keahlian = $this->input->post('kompetensi_keahlian');
 		$rata_rata = $this->input->post('rata_rata');
 
 		$kode_siswa= array('id_siswa' => $id_siswa);
@@ -123,7 +124,8 @@ class C_admin extends CI_Controller {
 			'simdig' => $simdig,
 			'kimia' => $kimia,
 			'fisika' => $fisika,
-			'produktif' => $produktif,
+			'kompetensi_keahlian' => $kompetensi_keahlian,
+			'dasar_program_keahlian' => $dasar_program_keahlian,
 			'rata_rata' => $rata_rata
 
 		);
@@ -217,7 +219,6 @@ class C_admin extends CI_Controller {
 			$pjok = $this->input->post('pjok');
 			$simdig = $this->input->post('simdig');
 			$ipa = $this->input->post('ipa');
-			$produktif = $this->input->post('produktif');
 			$rata_rata = $this->input->post('rata_rata');
 
 			$kode_siswa= array('id_siswa' => $id_siswa);
@@ -242,7 +243,6 @@ class C_admin extends CI_Controller {
 				'pjok' => $pjok,
 				'simdig' => $simdig,
 				'ipa' => $ipa,
-				'produktif' => $produktif,
 				'rata_rata' => $rata_rata
 
 			);
@@ -325,7 +325,8 @@ class C_admin extends CI_Controller {
 			$mulok_batik = $this->input->post('mulok_batik');
 			$simdig = $this->input->post('simdig');
 			$ipa = $this->input->post('ipa');
-			$produktif = $this->input->post('produktif');
+			$dasar_program_keahlian = $this->input->post('dasar_program_keahlian');
+			$kompetensi_keahlian = $this->input->post('kompetensi_keahlian');			
 			$rata_rata = $this->input->post('rata_rata');
 
 			$kode_siswa= array('id_siswa' => $id_siswa);
@@ -351,7 +352,8 @@ class C_admin extends CI_Controller {
 				'mulok_batik' => $mulok_batik,
 				'simdig' => $simdig,
 				'ipa' => $ipa,
-				'produktif' => $produktif,
+				'kompetensi_keahlian' => $kompetensi_keahlian,
+				'dasar_program_keahlian' => $dasar_program_keahlian,
 				'rata_rata' => $rata_rata
 
 			);
