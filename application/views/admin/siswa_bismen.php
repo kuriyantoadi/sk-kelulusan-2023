@@ -27,7 +27,7 @@
                         <center>Tanggal Lahir
                     </th>
                     <th>
-                      <center>Kelas
+                      <center>Paket Keahlian
                     </th>
                     <th>
                       <center>Kondisi
@@ -56,7 +56,7 @@
                       <?= $row->tgl_lahir ?>
                     </td>
                     <td>
-                      <?= $row->kelas  ?>
+                      <?= $row->paket_keahlian  ?>
                     </td>
                     <td>
                       <?= $row->status_kelulusan  ?>
